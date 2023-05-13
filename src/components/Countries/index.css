@@ -1,0 +1,39 @@
+.item-cont {
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.name {
+  color: #94a3b8;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.visit-button {
+  height: 35px;
+  width: 80px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.visited-button {
+  color: #94a3b8;
+  font-size: 15px;
+  padding-right: 20px;
+}
+.line {
+  color: #94a3b8;
+  width: 100%;
+  border: 1px solid #334155;
+  margin-left: 0px;
+}
